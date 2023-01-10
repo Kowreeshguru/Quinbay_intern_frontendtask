@@ -1,0 +1,94 @@
+<html>
+    <title>
+        CIT
+    </title>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="admission.css">
+      </head>
+    <body>
+        <div class="header">
+            <div class="logo"><img class="logo_img" src="logo.png" alt="cit"></div>
+            <div class="head_content"> 
+                <ul>
+                    <li><a style="text-decoration: none" href="">Home</a></li>
+                    <li><a style="text-decoration: none" href="">About</a></li>
+                    <li><a style="text-decoration: none" href="">Admission</a></li>
+                    <li><a style="text-decoration: none" href="">Department</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <table>
+                <tr>
+                  <th>S.No</th>
+                  <th>P.G programs</th> 
+                  <th>Qualification</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>M.E.  Computer Methods and Application in Structural Engineering</td> 
+                  <td>
+                    <p><b>B.E/B.Tech</b></p>
+                    <ul>
+                        <li>Civil</li>
+                        <li>Civil Structural</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>M.E. Computer Science and Engineering</td> 
+                  <td>
+                    <p><b>B.E/B.Tech</b></p>
+                    <ul>
+                        <li>Electronics and Communication Engg</li>
+                        <li> Information Technology</li>
+                        <li>Computer Science and Engg</li>
+                        <li>Software Engineering</li>
+                        <li>Computer and Communication Engg</li>
+
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>M.E. Communication Engineering</td> 
+                    <td>
+                      <p><b>B.E/B.Tech</b></p>
+                      <ul>
+                          <li>Electronics and Communication Engg.</li>
+                          <li> Electronics Engg.</li>
+  
+                      </ul>
+                    </td>
+                  </tr>
+              </table>
+            <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="Male">HTML</label><br>
+                <input type="radio" id="female" name="Gender" value="female">
+                <label for="female">CSS</label><br>
+                <input type="radio" id="others" name="Gender" value="others">
+                <label for="Others">CSS</label><br>
+                <label for="dept">Choose your Department</label><br>
+                <select class="dept" name="dept">
+                    <option value="Msc">Msc</option>
+                    <option value="Mechanical">Mechanical</option>
+                    <option value="EEE">EEE</option>
+                    <option value="ECE">ECE</option>
+                    <option value="Civil">Civil</option>
+                    <option value="IT">IT</option>
+                </select><br>
+                <label for="photo">Upload your photo</label>
+                <input type="file" name="photo" id="photo"><br>
+                <label for="certi">Upload your Certificate</label>
+                <input type="file" name="certi" id="certi"><br>
+            </form>
+        </div>
+    </body>
+</html>

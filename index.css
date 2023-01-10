@@ -1,0 +1,90 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    border: 1px solid;
+    border-radius: 3px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    height:80px;
+    width:100px;
+}
+.logo_img{
+    margin: auto;
+    width: 60%;
+}
+.head_content{ 
+    float: right;
+    width: 90%;
+}
+ul{
+    float: right;
+}
+li{
+    margin-top: 30px;
+    border-top: 20px;
+    margin: 40px;
+    display:inline;
+
+}
+.portion1{
+    display: flex;
+    height: 400px;
+}
+.left1{
+    width: 60%;
+    margin: 50px;
+}
+.right1{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    float: right;
+}
+.img1{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+.portion2{
+    display: flex;
+    height: 400px;
+    background-color:rgb(185, 184, 184);
+}
+.img2{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+.left2{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+.right2{
+    width: 60%;
+    margin: 50px;
+}
+.portion3{
+    display: flex;
+    height: 400px;
+}
+.left3{
+    width: 60%;
+    margin: 50px;
+}
+.right3{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    float: right;
+}
+.img3{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
